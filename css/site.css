@@ -7,6 +7,7 @@ body {
     background-color: #041C32;
     font-family: Monospace;
     text-align: center;
+    font-size: 25px;
 }
 
 .navbar {
@@ -37,9 +38,15 @@ body {
 }
 
 .bottom {
-    font-size: 10px;
+    font-size: 15px;
     padding-top: 20px;
     color: grey;
+}
+
+.bottom img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
 }
 
 .bottom a {
