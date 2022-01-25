@@ -7,12 +7,12 @@ body {
     background-color: #041C32;
     font-family: Monospace;
     text-align: center;
-    font-size: 25px;
 }
 
 .navbar {
     background-color: #04293A;
-    padding: 10px;
+    padding: 10px;    
+    font-size: 20px;
 }
 
 .navbar a {
@@ -24,17 +24,22 @@ body {
 .header {
     color: gray;
     padding: 10px;
+    font-size: 15px;
 }
 
-.header img {
-    width: 250px;
-    max-width: 100%;
-    height: auto;
+.headerimage {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+    font-size: 10px;
 }
 
 .answer {
     color: #ECB365;
     padding: 10px;
+    font-size: 15px;
 }
 
 .bottom {
@@ -43,10 +48,9 @@ body {
     color: grey;
 }
 
-.bottom img {
-    width: 150px;
-    max-width: 100%;
-    height: auto;
+.bottomimage {
+  width: 100%;
+  height: auto;
 }
 
 .bottom a {
