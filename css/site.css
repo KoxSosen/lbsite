@@ -1,0 +1,63 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #2d5986;
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    margin: 0;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #282828;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* Flexbox */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+  border-right-color: black;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.highlight {
+    background-color: #111314;
+    color: white;
+    border-radius: 5px;
+    display: inline-table;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
