@@ -12,7 +12,8 @@ body {
 .navbar {
     background-color: #04293A;
     padding: 10px;    
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .navbar a {
@@ -23,8 +24,7 @@ body {
 
 .header {
     color: gray;
-    padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .headerimage {
@@ -32,30 +32,34 @@ body {
   height: auto;
 }
 
-.content {
-    font-size: 10px;
+.content {  
+    font-size: 15px;
+    margin-top: 15px;
 }
 
 .answer {
     color: #ECB365;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
-.bottom {
-    font-size: 15px;
-    padding-top: 20px;
+.license {
+    font-size: 20px;
+    margin-top: 15px;
     color: grey;
 }
 
-.bottomimage {
+.licenseimage {
   width: 100%;
   height: auto;
 }
 
-.bottom a {
+.realbottom a {
     text-decoration: underline;
     color: black;
 }
 
-
+.realbottom {
+    color: gray;
+    font-size: 15px;
+}
