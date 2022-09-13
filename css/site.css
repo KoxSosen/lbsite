@@ -46,11 +46,12 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+/*
 .dropdown-content a:hover {
   background-color: #ECB365;
   color: #04293A;
 }
+*/
 
 .header {
     color: gray;
