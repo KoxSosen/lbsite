@@ -22,6 +22,37 @@ body {
     padding: 10px;
 }
 
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown a {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    margin-top: 10px; /* Hardcoded this once, as styling the dropdown would affect the whole navbar */
+    display: none;
+    position: absolute;
+    background-color: #04293A;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*
+.dropdown-content a:hover {
+  background-color: #ECB365;
+  color: #04293A;
+}
+*/
+
 .header {
     color: gray;
     font-size: 20px;
